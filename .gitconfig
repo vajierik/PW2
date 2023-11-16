@@ -1,0 +1,16 @@
+[user]
+    name = vajierik
+    email = otr580@gmail.com
+[core]
+    autocrlf = input
+    safecrlf = warn
+    quotepath = off
+[alias]
+    br = branch
+    dump = cat-file -p
+    ci = commit
+    co = checkout
+    hist = log
+    history = log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short
+    type = cat-file -t
+    st = status
